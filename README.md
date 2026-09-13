@@ -10,4 +10,4 @@
 | Halaman     | Screenshot                                                             |
 |-------------|------------------------------------------------------------------------|
 | Pertemuan 1 | <img src="screenshots/pertemuan_1.jpeg" alt="Pertemuan 1" height="600"> |
-| Pertemuan 2 | https://github.com/user-attachments/assets/61f609fe-8101-4ef3-b032-a0aae6afe5f5> |
+| Pertemuan 2 | https://github.com/user-attachments/assets/61f609fe-8101-4ef3-b032-a0aae6afe5f5 |
