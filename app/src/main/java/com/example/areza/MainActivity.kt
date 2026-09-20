@@ -19,6 +19,7 @@ import com.example.areza.ui.theme.Surface
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.areza.ui.screen.BasicInfoScreen
+import com.example.areza.ui.screen.DaftarProductScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,8 +34,15 @@ class MainActivity : ComponentActivity() {
                     val navController = rememberNavController()
                     NavHost(
                         navController = navController,
-                        startDestination = "basic_info"
+                        startDestination = "product_list"
                     ) {
+                        composable(route = "product_list") {
+                            DaftarProductScreen(
+                                onNavigateToContact = {
+                                    navController.navigate(route = "form_screen")
+                                }
+                            )
+                        }
                         composable(route = "basic_info") {
                             BasicInfoScreen(
                                 onNavigateToContact = {
