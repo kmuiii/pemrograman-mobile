@@ -9,4 +9,7 @@ data class Product(
     val price: Double,
     val stock: Int,
     val img: String
-)
+) {
+    val imageUrl: Any
+        get() = img
+}
